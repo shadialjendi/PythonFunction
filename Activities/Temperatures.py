@@ -1,17 +1,17 @@
-def celsius_to_fahrenheit(celsius):
+_______________ celsius_to_fahrenheit(celsius): #1
     fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
+    _______________ fahrenheit #2
 
-def fahrenheit_to_celsius(fahrenheit):
-    celsius = (fahrenheit - 32) * 5/9
-    return celsius
+_______________ fahrenheit_to_celsius(fahrenheit): #3
+    celsius = (fahrenheit - 32) * 5/9 #4
+    _______________ celsius
 
 temperature = float(input("Enter the temperature: "))
 unit = input("Enter the unit (C for Celsius, F for Fahrenheit): ")
 
-if unit == 'C':
-    converted_temp = celsius_to_fahrenheit(temperature)
+_______________ unit == 'C': #5
+    converted_temp = _______________(temperature) #6
 else :
-    converted_temp = fahrenheit_to_celsius(temperature)
+    converted_temp = _______________(temperature) #7
 
-print("The converted temparature is", converted_temp)
+print("The converted temparature is", _______________) #8
